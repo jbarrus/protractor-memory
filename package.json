@@ -1,0 +1,39 @@
+{
+  "name": "protractor-memory",
+  "version": "0.1.0",
+  "description": "Test browser memory usage and find memory leaks using protractor and Chrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarrus/protractor-memory.git"
+  },
+  "keywords": [
+    "protractor",
+    "chrome",
+    "memory",
+    "selenium"
+  ],
+  "engine": {
+    "node": ">=5.0",
+    "npm": ">=3.0"
+  },
+  "author": "barrusj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbarrus/protractor-memory/issues"
+  },
+  "homepage": "https://github.com/jbarrus/protractor-memory#readme",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "d3": "^3.5.5",
+    "lodash": "^4.15.0",
+    "mkdirp": "^0.5.1",
+    "phantom": "^2.1.16",
+    "phantomjs-prebuilt": "^2.1.12",
+    "progress": "^1.1.8",
+    "q": "^1.4.1"
+  }
+}

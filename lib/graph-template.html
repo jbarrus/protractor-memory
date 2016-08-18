@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: auto;
+            position: relative;
+            width: 800px;
+        }
+
+        text {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: table
+        }
+
+        table {
+            font-size: 12px;
+            border-collapse: collapse;
+        }
+
+        table, tr, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        td {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="center">
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th>min</th>
+            <th>max</th>
+            <th>diff</th>
+            <th>avg</th>
+            <th>slope</th>
+            <th>r²</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% _.forEach(results, function(val, key) { %>
+        <tr style="background-color: ${colors[key]}">
+            <td>${key}</td>
+            <td>${_.round(val.min)}</td>
+            <td>${_.round(val.max)}</td>
+            <td>${_.round(val.diff)}</td>
+            <td>${_.round(val.avg)}</td>
+            <td>${_.round(val.regression.slope, 4)}</td>
+            <td>${_.round(val.regression.r2, 4)}</td>
+        </tr>
+        <% }) %>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
