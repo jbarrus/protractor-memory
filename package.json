@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/jbarrus/protractor-memory#readme",
   "dependencies": {
+    "bluebird": "^3.4.5",
     "cli-color": "^1.1.0",
     "d3": "^3.5.5",
     "lodash": "^4.15.0",
