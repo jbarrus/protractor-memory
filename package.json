@@ -27,16 +27,16 @@
   },
   "homepage": "https://github.com/jbarrus/protractor-memory#readme",
   "dependencies": {
-    "bluebird": "^3.4.5",
-    "cli-color": "^1.1.0",
+    "bluebird": "^3.5.0",
+    "cli-color": "^1.2.0",
     "d3": "^3.5.5",
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
-    "moment": "^2.14.1",
-    "phantom": "^2.1.16",
-    "phantomjs-prebuilt": "^2.1.12",
-    "pidusage": "^1.0.4",
+    "moment": "^2.18.1",
+    "phantom": "^4.0.1",
+    "phantomjs-prebuilt": "^2.1.14",
+    "pidusage": "^1.1.1",
     "progress": "^1.1.8",
-    "q": "^1.4.1"
+    "q": "^1.5.0"
   }
 }
