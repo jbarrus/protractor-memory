@@ -11,9 +11,13 @@ ajv@^5.1.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ansi-regex@^2.1.1:
+ansi-regex@^2.0.0, ansi-regex@^2.1.1:
   version "2.1.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
+
+ansi-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
 
 asn1@~0.2.3:
   version "0.2.3"
@@ -68,6 +72,10 @@ buffer-from@^1.0.0:
   version "1.1.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/buffer-from/-/buffer-from-1.1.0.tgz#87fcaa3a298358e0ade6e442cfce840740d1ad04"
 
+camelcase@^4.1.0:
+  version "4.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
+
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
@@ -83,9 +91,21 @@ cli-color@^1.2.0:
     memoizee "^0.4.3"
     timers-ext "0.1"
 
+cliui@^4.0.0:
+  version "4.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/cliui/-/cliui-4.1.0.tgz#348422dbe82d800b3022eef4f6ac10bf2e4d1b49"
+  dependencies:
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
+    wrap-ansi "^2.0.0"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
+
+code-point-at@^1.0.0:
+  version "1.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
 colors@1.0.x:
   version "1.0.3"
@@ -96,10 +116,6 @@ combined-stream@1.0.6, combined-stream@~1.0.5:
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/combined-stream/-/combined-stream-1.0.6.tgz#723e7df6e801ac5613113a7e445a9b69cb632818"
   dependencies:
     delayed-stream "~1.0.0"
-
-commander@2:
-  version "2.15.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
 concat-stream@1.6.2:
   version "1.6.2"
@@ -113,6 +129,14 @@ concat-stream@1.6.2:
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+
+cross-spawn@^5.0.1:
+  version "5.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
+  dependencies:
+    lru-cache "^4.0.1"
+    shebang-command "^1.2.0"
+    which "^1.2.9"
 
 csv-parser@^1.6.0:
   version "1.12.1"
@@ -130,221 +154,9 @@ cycle@1.0.x:
   version "1.0.3"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
 
-d3-array@1, d3-array@^1.1.1, d3-array@^1.2.0:
-  version "1.2.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-array/-/d3-array-1.2.1.tgz#d1ca33de2f6ac31efadb8e050a021d7e2396d5dc"
-
-d3-axis@1:
-  version "1.0.8"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-axis/-/d3-axis-1.0.8.tgz#31a705a0b535e65759de14173a31933137f18efa"
-
-d3-brush@1:
-  version "1.0.4"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-brush/-/d3-brush-1.0.4.tgz#00c2f238019f24f6c0a194a26d41a1530ffe7bc4"
-  dependencies:
-    d3-dispatch "1"
-    d3-drag "1"
-    d3-interpolate "1"
-    d3-selection "1"
-    d3-transition "1"
-
-d3-chord@1:
-  version "1.0.4"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-chord/-/d3-chord-1.0.4.tgz#7dec4f0ba886f713fe111c45f763414f6f74ca2c"
-  dependencies:
-    d3-array "1"
-    d3-path "1"
-
-d3-collection@1:
-  version "1.0.4"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-collection/-/d3-collection-1.0.4.tgz#342dfd12837c90974f33f1cc0a785aea570dcdc2"
-
-d3-color@1:
-  version "1.2.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-color/-/d3-color-1.2.0.tgz#d1ea19db5859c86854586276ec892cf93148459a"
-
-d3-contour@1:
-  version "1.2.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-contour/-/d3-contour-1.2.0.tgz#de3ea7991bbb652155ee2a803aeafd084be03b63"
-  dependencies:
-    d3-array "^1.1.1"
-
-d3-dispatch@1:
-  version "1.0.3"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-dispatch/-/d3-dispatch-1.0.3.tgz#46e1491eaa9b58c358fce5be4e8bed626e7871f8"
-
-d3-drag@1:
-  version "1.2.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-drag/-/d3-drag-1.2.1.tgz#df8dd4c502fb490fc7462046a8ad98a5c479282d"
-  dependencies:
-    d3-dispatch "1"
-    d3-selection "1"
-
-d3-dsv@1:
-  version "1.0.8"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-dsv/-/d3-dsv-1.0.8.tgz#907e240d57b386618dc56468bacfe76bf19764ae"
-  dependencies:
-    commander "2"
-    iconv-lite "0.4"
-    rw "1"
-
-d3-ease@1:
-  version "1.0.3"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
-
-d3-fetch@1:
-  version "1.1.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-fetch/-/d3-fetch-1.1.0.tgz#31cbcd506b21d6519ac6a120a079de8d0a57c00f"
-  dependencies:
-    d3-dsv "1"
-
-d3-force@1:
-  version "1.1.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-force/-/d3-force-1.1.0.tgz#cebf3c694f1078fcc3d4daf8e567b2fbd70d4ea3"
-  dependencies:
-    d3-collection "1"
-    d3-dispatch "1"
-    d3-quadtree "1"
-    d3-timer "1"
-
-d3-format@1:
-  version "1.3.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-format/-/d3-format-1.3.0.tgz#a3ac44269a2011cdb87c7b5693040c18cddfff11"
-
-d3-geo@1:
-  version "1.10.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-geo/-/d3-geo-1.10.0.tgz#2972d18014f1e38fc1f8bb6d545377bdfb00c9ab"
-  dependencies:
-    d3-array "1"
-
-d3-hierarchy@1:
-  version "1.1.6"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-hierarchy/-/d3-hierarchy-1.1.6.tgz#842c1372090f870b7ea013ebae5c0c8d9f56229c"
-
-d3-interpolate@1:
-  version "1.2.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-interpolate/-/d3-interpolate-1.2.0.tgz#40d81bd8e959ff021c5ea7545bc79b8d22331c41"
-  dependencies:
-    d3-color "1"
-
-d3-path@1:
-  version "1.0.5"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-path/-/d3-path-1.0.5.tgz#241eb1849bd9e9e8021c0d0a799f8a0e8e441764"
-
-d3-polygon@1:
-  version "1.0.3"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-polygon/-/d3-polygon-1.0.3.tgz#16888e9026460933f2b179652ad378224d382c62"
-
-d3-quadtree@1:
-  version "1.0.3"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-quadtree/-/d3-quadtree-1.0.3.tgz#ac7987e3e23fe805a990f28e1b50d38fcb822438"
-
-d3-random@1:
-  version "1.1.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-random/-/d3-random-1.1.0.tgz#6642e506c6fa3a648595d2b2469788a8d12529d3"
-
-d3-scale-chromatic@1:
-  version "1.3.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-scale-chromatic/-/d3-scale-chromatic-1.3.0.tgz#7ee38ffcaa7ad55cfed83a6a668aac5570c653c4"
-  dependencies:
-    d3-color "1"
-    d3-interpolate "1"
-
-d3-scale@2:
-  version "2.0.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-scale/-/d3-scale-2.0.0.tgz#fd8ac78381bc2ed741d8c71770437a5e0549a5a5"
-  dependencies:
-    d3-array "^1.2.0"
-    d3-collection "1"
-    d3-format "1"
-    d3-interpolate "1"
-    d3-time "1"
-    d3-time-format "2"
-
-d3-selection@1, d3-selection@^1.1.0:
-  version "1.3.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-selection/-/d3-selection-1.3.0.tgz#d53772382d3dc4f7507bfb28bcd2d6aed2a0ad6d"
-
-d3-shape@1:
-  version "1.2.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-shape/-/d3-shape-1.2.0.tgz#45d01538f064bafd05ea3d6d2cb748fd8c41f777"
-  dependencies:
-    d3-path "1"
-
-d3-time-format@2:
-  version "2.1.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-time-format/-/d3-time-format-2.1.1.tgz#85b7cdfbc9ffca187f14d3c456ffda268081bb31"
-  dependencies:
-    d3-time "1"
-
-d3-time@1:
-  version "1.0.8"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-time/-/d3-time-1.0.8.tgz#dbd2d6007bf416fe67a76d17947b784bffea1e84"
-
-d3-timer@1:
-  version "1.0.7"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-timer/-/d3-timer-1.0.7.tgz#df9650ca587f6c96607ff4e60cc38229e8dd8531"
-
-d3-transition@1:
-  version "1.1.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-transition/-/d3-transition-1.1.1.tgz#d8ef89c3b848735b060e54a39b32aaebaa421039"
-  dependencies:
-    d3-color "1"
-    d3-dispatch "1"
-    d3-ease "1"
-    d3-interpolate "1"
-    d3-selection "^1.1.0"
-    d3-timer "1"
-
-d3-voronoi@1:
-  version "1.1.2"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-voronoi/-/d3-voronoi-1.1.2.tgz#1687667e8f13a2d158c80c1480c5a29cb0d8973c"
-
-d3-zoom@1:
-  version "1.7.1"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3-zoom/-/d3-zoom-1.7.1.tgz#02f43b3c3e2db54f364582d7e4a236ccc5506b63"
-  dependencies:
-    d3-dispatch "1"
-    d3-drag "1"
-    d3-interpolate "1"
-    d3-selection "1"
-    d3-transition "1"
-
-d3@^5.4.0:
-  version "5.4.0"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3/-/d3-5.4.0.tgz#090199a8569d1de23d04a3ff07fe136095fea74e"
-  dependencies:
-    d3-array "1"
-    d3-axis "1"
-    d3-brush "1"
-    d3-chord "1"
-    d3-collection "1"
-    d3-color "1"
-    d3-contour "1"
-    d3-dispatch "1"
-    d3-drag "1"
-    d3-dsv "1"
-    d3-ease "1"
-    d3-fetch "1"
-    d3-force "1"
-    d3-format "1"
-    d3-geo "1"
-    d3-hierarchy "1"
-    d3-interpolate "1"
-    d3-path "1"
-    d3-polygon "1"
-    d3-quadtree "1"
-    d3-random "1"
-    d3-scale "2"
-    d3-scale-chromatic "1"
-    d3-selection "1"
-    d3-shape "1"
-    d3-time "1"
-    d3-time-format "2"
-    d3-timer "1"
-    d3-transition "1"
-    d3-voronoi "1"
-    d3-zoom "1"
+d3@^3.5.5:
+  version "3.5.17"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/d3/-/d3-3.5.17.tgz#bc46748004378b21a360c9fc7cf5231790762fb8"
 
 d@1:
   version "1.0.0"
@@ -363,6 +175,10 @@ debug@2.6.9:
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
+
+decamelize@^1.1.1:
+  version "1.2.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -417,6 +233,18 @@ event-emitter@^0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
+execa@^0.7.0:
+  version "0.7.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
+  dependencies:
+    cross-spawn "^5.0.1"
+    get-stream "^3.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
+
 extend@~3.0.1:
   version "3.0.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
@@ -456,6 +284,12 @@ fd-slicer@~1.0.1:
   dependencies:
     pend "~1.2.0"
 
+find-up@^2.1.0:
+  version "2.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
+  dependencies:
+    locate-path "^2.0.0"
+
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -493,12 +327,20 @@ generate-object-property@^1.0.0:
   dependencies:
     is-property "^1.0.0"
 
+get-caller-file@^1.0.1:
+  version "1.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
+
 get-stream@^2.1.0:
   version "2.3.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/get-stream/-/get-stream-2.3.1.tgz#5f38f93f346009666ee0150a054167f91bdd95de"
   dependencies:
     object-assign "^4.0.1"
     pinkie-promise "^2.0.0"
+
+get-stream@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -536,12 +378,6 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-iconv-lite@0.4:
-  version "0.4.23"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/iconv-lite/-/iconv-lite-0.4.23.tgz#297871f63be507adcfbfca715d0cd0eed84e9a63"
-  dependencies:
-    safer-buffer ">= 2.1.2 < 3"
-
 inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.3:
   version "2.0.3"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
@@ -552,6 +388,20 @@ into-stream@^2.0.0:
   dependencies:
     from2 "^2.1.1"
 
+invert-kv@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
+
+is-fullwidth-code-point@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
+  dependencies:
+    number-is-nan "^1.0.0"
+
+is-fullwidth-code-point@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+
 is-promise@^2.1:
   version "2.1.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
@@ -560,7 +410,7 @@ is-property@^1.0.0:
   version "1.0.2"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/is-property/-/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
 
-is-stream@^1.0.1:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
@@ -621,15 +471,41 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+lcid@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
+  dependencies:
+    invert-kv "^1.0.0"
+
+locate-path@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
+  dependencies:
+    p-locate "^2.0.0"
+    path-exists "^3.0.0"
+
 lodash@^4.17.4:
   version "4.17.10"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
+lru-cache@^4.0.1:
+  version "4.1.3"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/lru-cache/-/lru-cache-4.1.3.tgz#a1175cf3496dfc8436c156c334b4955992bce69c"
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
 
 lru-queue@0.1:
   version "0.1.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/lru-queue/-/lru-queue-0.1.0.tgz#2738bd9f0d3cf4f84490c5736c48699ac632cda3"
   dependencies:
     es5-ext "~0.10.2"
+
+mem@^1.1.0:
+  version "1.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
+  dependencies:
+    mimic-fn "^1.0.0"
 
 memoizee@^0.4.3:
   version "0.4.12"
@@ -653,6 +529,10 @@ mime-types@^2.1.12, mime-types@~2.1.17:
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/mime-types/-/mime-types-2.1.18.tgz#6f323f60a83d11146f831ff11fd66e2fe5503bb8"
   dependencies:
     mime-db "~1.33.0"
+
+mimic-fn@^1.0.0:
+  version "1.2.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
 minimist@0.0.8:
   version "0.0.8"
@@ -697,6 +577,16 @@ next-tick@1:
   version "1.0.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
+npm-run-path@^2.0.0:
+  version "2.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
+  dependencies:
+    path-key "^2.0.0"
+
+number-is-nan@^1.0.0:
+  version "1.0.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
 oauth-sign@~0.8.2:
   version "0.8.2"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
@@ -704,6 +594,42 @@ oauth-sign@~0.8.2:
 object-assign@^4.0.1:
   version "4.1.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+
+os-locale@^2.0.0:
+  version "2.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/os-locale/-/os-locale-2.1.0.tgz#42bc2900a6b5b8bd17376c8e882b65afccf24bf2"
+  dependencies:
+    execa "^0.7.0"
+    lcid "^1.0.0"
+    mem "^1.1.0"
+
+p-finally@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+
+p-limit@^1.1.0:
+  version "1.2.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/p-limit/-/p-limit-1.2.0.tgz#0e92b6bedcb59f022c13d0f1949dc82d15909f1c"
+  dependencies:
+    p-try "^1.0.0"
+
+p-locate@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
+  dependencies:
+    p-limit "^1.1.0"
+
+p-try@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
+
+path-exists@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
+
+path-key@^2.0.0:
+  version "2.0.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -721,7 +647,7 @@ phantom@^4.0.1:
     split "^1.0.1"
     winston "^2.4.0"
 
-phantomjs-prebuilt@^2.1.16:
+phantomjs-prebuilt@^2.1.14, phantomjs-prebuilt@^2.1.16:
   version "2.1.16"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.16.tgz#efd212a4a3966d3647684ea8ba788549be2aefef"
   dependencies:
@@ -764,6 +690,10 @@ progress@^1.1.8:
 progress@^2.0.0:
   version "2.0.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
+
+pseudomap@^1.0.2:
+  version "1.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -820,21 +750,39 @@ request@^2.81.0:
     tunnel-agent "^0.6.0"
     uuid "^3.1.0"
 
-rw@1:
-  version "1.3.3"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/rw/-/rw-1.3.3.tgz#3f862dfa91ab766b14885ef4d01124bfda074fb4"
+require-directory@^2.1.1:
+  version "2.1.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
+
+require-main-filename@^1.0.1:
+  version "1.0.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-"safer-buffer@>= 2.1.2 < 3":
-  version "2.1.2"
-  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
-
 sec@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/sec/-/sec-1.0.0.tgz#033d60a3ad20ecf2e00940d14f97823465774335"
+
+set-blocking@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
+
+shebang-command@^1.2.0:
+  version "1.2.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
+  dependencies:
+    shebang-regex "^1.0.0"
+
+shebang-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+
+signal-exit@^3.0.0:
+  version "3.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
 split2@^2.1.0:
   version "2.2.0"
@@ -866,11 +814,42 @@ stack-trace@0.0.x:
   version "0.0.10"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/stack-trace/-/stack-trace-0.0.10.tgz#547c70b347e8d32b4e108ea1a2a159e5fdde19c0"
 
+string-width@^1.0.1:
+  version "1.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  dependencies:
+    code-point-at "^1.0.0"
+    is-fullwidth-code-point "^1.0.0"
+    strip-ansi "^3.0.0"
+
+string-width@^2.0.0, string-width@^2.1.1:
+  version "2.1.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  dependencies:
+    is-fullwidth-code-point "^2.0.0"
+    strip-ansi "^4.0.0"
+
 string_decoder@~1.1.1:
   version "1.1.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
   dependencies:
     safe-buffer "~5.1.0"
+
+strip-ansi@^3.0.0, strip-ansi@^3.0.1:
+  version "3.0.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
+  dependencies:
+    ansi-regex "^2.0.0"
+
+strip-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
+  dependencies:
+    ansi-regex "^3.0.0"
+
+strip-eof@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
 
 tasklist@^3.1.0:
   version "3.1.0"
@@ -938,7 +917,11 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-which@^1.2.10:
+which-module@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
+
+which@^1.2.10, which@^1.2.9:
   version "1.3.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   dependencies:
@@ -955,9 +938,47 @@ winston@^2.4.0:
     isstream "0.1.x"
     stack-trace "0.0.x"
 
+wrap-ansi@^2.0.0:
+  version "2.1.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
+  dependencies:
+    string-width "^1.0.1"
+    strip-ansi "^3.0.1"
+
 xtend@~4.0.1:
   version "4.0.1"
   resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
+
+y18n@^3.2.1:
+  version "3.2.1"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+
+yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
+
+yargs-parser@^9.0.2:
+  version "9.0.2"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/yargs-parser/-/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
+  dependencies:
+    camelcase "^4.1.0"
+
+yargs@^11.0.0:
+  version "11.0.0"
+  resolved "https://artifactory.fmr.com/api/npm/npm-prereleases/yargs/-/yargs-11.0.0.tgz#c052931006c5eee74610e5fc0354bedfd08a201b"
+  dependencies:
+    cliui "^4.0.0"
+    decamelize "^1.1.1"
+    find-up "^2.1.0"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^9.0.2"
 
 yauzl@2.4.1:
   version "2.4.1"

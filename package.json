@@ -29,14 +29,16 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "cli-color": "^1.2.0",
-    "d3": "^5.4.0",
+    "d3": "^3.5.5",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
     "phantom": "^4.0.1",
+    "phantomjs-prebuilt": "^2.1.14",
     "pidusage": "^2.0.6",
     "progress": "^2.0.0",
     "q": "^1.5.0",
-    "tasklist": "^3.1.0"
+    "tasklist": "^3.1.0",
+    "yargs": "^11.0.0"
   }
 }
